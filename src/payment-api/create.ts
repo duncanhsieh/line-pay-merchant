@@ -1,4 +1,4 @@
-import { HttpClient } from '@/line-pay-api/type'
+import { HttpClient } from '../line-pay-api/type'
 import {
   ApiResponse,
   ApiHandler,

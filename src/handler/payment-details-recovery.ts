@@ -13,7 +13,7 @@ import {
   ResponseBody
 } from '../payment-api/type'
 import { isTimeoutError } from '../line-pay-api/error/timeout'
-import { HttpClient } from '@/line-pay-api/type'
+import { HttpClient } from '../line-pay-api/type'
 
 /**
  * Convert confirm response or refund response body to payment details response body

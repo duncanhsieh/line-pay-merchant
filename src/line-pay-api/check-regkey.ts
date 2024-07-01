@@ -1,4 +1,4 @@
-import { LinePayApiClients } from '@/payment-api/type'
+import { LinePayApiClients } from '../payment-api/type'
 import { FormatError } from './error/format'
 import { GeneralRequestConfig, GeneralResponseBody } from './type'
 

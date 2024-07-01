@@ -1,42 +1,42 @@
 import {
   CaptureRequestConfig,
   CaptureResponseBody
-} from '@/line-pay-api/capture'
+} from '../line-pay-api/capture'
 import {
   CheckRegKeyRequestConfig,
   CheckRegKeyResponseBody
-} from '@/line-pay-api/check-regkey'
+} from '../line-pay-api/check-regkey'
 import {
   CheckPaymentStatusRequestConfig,
   CheckPaymentStatusResponseBody
-} from '@/line-pay-api/check-payment-status'
+} from '../line-pay-api/check-payment-status'
 import {
   ConfirmRequestConfig,
   ConfirmResponseBody
-} from '@/line-pay-api/confirm'
+} from '../line-pay-api/confirm'
 import {
   PayPreapprovedRequestConfig,
   PayPreapprovedResponseBody
-} from '@/line-pay-api/pay-preapproved'
+} from '../line-pay-api/pay-preapproved'
 import {
   PaymentDetailsRequestConfig,
   PaymentDetailsResponseBody
-} from '@/line-pay-api/payment-details'
-import { RefundRequestConfig, RefundResponseBody } from '@/line-pay-api/refund'
+} from '../line-pay-api/payment-details'
+import { RefundRequestConfig, RefundResponseBody } from '../line-pay-api/refund'
 import {
   RequestRequestConfig,
   RequestResponseBody
-} from '@/line-pay-api/request'
+} from '../line-pay-api/request'
 import {
   ApiClientBuilder,
   GeneralResponseBody,
   HttpClient
-} from '@/line-pay-api/type'
+} from '../line-pay-api/type'
 import {
   ExpireRegKeyRequestConfig,
   ExpireRegKeyResponseBody
-} from '@/line-pay-api/expire-regkey'
-import { VoidRequestConfig, VoidResponseBody } from '@/line-pay-api/void'
+} from '../line-pay-api/expire-regkey'
+import { VoidRequestConfig, VoidResponseBody } from '../line-pay-api/void'
 
 /**
  * All LINE Pay API Clients supported by this library.
